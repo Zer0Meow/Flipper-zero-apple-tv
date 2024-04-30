@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0A 4F 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0C 4F 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 09 4F 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 06 4F 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5C 4F 00 00
+# 
+name: Menu
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8902 4695 316 673 473 1773 419 1744 499 1802 387 725 425 1821 337 1801 446 1770 474 1771 419 1773 446 1796 473 673 369 698 475 646 474 696 447 1720 471 1748 497 1743 422 749 397 645 444 674 447 701 418 672 475 696 395 1773 524 1717 449 1769 476 1717 448 725 393 646 501 1743 474 741 308 38464 8789 2415 340
+# 
+name: Media
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5F 4F 00 00
