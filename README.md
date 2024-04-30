@@ -1,2 +1,2 @@
-# Flipper-zero-apple-tv
-the apple tv 2nd gen remote for the flipper zero 
+# Apple TV Remote for the Flipper Zero
+Heres the Apple Tv Remote for the flipper zero
